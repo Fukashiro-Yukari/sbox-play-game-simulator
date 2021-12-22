@@ -1,0 +1,22 @@
+Money
+{
+    position: absolute;
+	background-color: rgba( black, 0.5 );
+	border-radius: 10px;
+    left: 20px;
+	padding: 5px;
+
+    .Icon
+    {
+        font-family: MaterialIconsOutlined;
+		font-size: 20px;
+		padding: 0 10 0 2px;
+		color: rgb(0, 255, 0);
+    }
+
+    .Text
+    {
+        font-size: 18px;
+        color: white;
+    }
+}

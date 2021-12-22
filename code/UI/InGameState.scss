@@ -1,0 +1,40 @@
+InGameState
+{
+    position: absolute;
+	background-color: rgba( black, 0.5 );
+	border-radius: 10px;
+    left: 20px;
+	bottom: 20px;
+	padding: 5px;
+	flex-direction: column;
+
+	&.IsRealPlayer
+	{
+		display: none;
+	}
+
+	.HealthBarBG
+	{
+		.IconHP
+		{
+			font-family: MaterialIconsOutlined;
+			font-size: 20px;
+			padding: 0 10 0 2px;
+			color: red;
+		}
+
+		.HealthBarBack
+		{
+			background-color: rgba( black, 0.7 );
+			border-radius: 10px;
+			width: 200px;
+			height: 18px;
+
+			.HealthBar
+			{
+				background-color: rgba( red, 0.7 );
+				border-radius: 10px;
+			}
+		}
+	}
+}

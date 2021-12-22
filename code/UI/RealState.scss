@@ -1,0 +1,94 @@
+RealState
+{
+    position: absolute;
+	background-color: rgba( black, 0.5 );
+	border-radius: 10px;
+    left: 20px;
+	bottom: 20px;
+	padding: 5px;
+	flex-direction: column;
+
+	&.IsInGamePlayer
+	{
+		display: none;
+	}
+
+	.HealthBarBG
+	{
+		padding: 0 0 5 0px;
+
+		.IconHP
+		{
+			font-family: MaterialIconsOutlined;
+			font-size: 20px;
+			padding: 0 10 0 2px;
+			color: red;
+		}
+
+		.HealthBarBack
+		{
+			background-color: rgba( black, 0.7 );
+			border-radius: 10px;
+			width: 200px;
+			height: 18px;
+
+			.HealthBar
+			{
+				background-color: rgba( red, 0.7 );
+				border-radius: 10px;
+			}
+		}
+	}
+
+	.ColdBarBG
+	{
+		padding: 0 0 5 0px;
+
+		.IconCold
+		{
+			font-family: MaterialIconsOutlined;
+			font-size: 20px;
+			padding: 0 10 0 2px;
+			color: rgb(0, 255, 255);
+		}
+
+		.ColdBarBack
+		{
+			background-color: rgba( black, 0.7 );
+			border-radius: 10px;
+			width: 200px;
+			height: 18px;
+
+			.ColdBar
+			{
+				background-color: rgba( rgb(0, 255, 255), 0.7 );
+				border-radius: 10px;
+			}
+		}
+	}
+
+	.StaminaBarBG
+	{
+		.IconStamina
+		{
+			font-family: MaterialIconsOutlined;
+			font-size: 20px;
+			padding: 0 10 0 2px;
+			color: rgb(255, 255, 0);
+		}
+
+		.StaminaBarBack
+		{
+			background-color: rgba( black, 0.7 );
+			border-radius: 10px;
+			width: 200px;
+			height: 18px;
+
+			.StaminaBar
+			{
+				background-color: rgba( rgb(255, 255, 0), 0.7 );
+				border-radius: 10px;
+			}
+		}
+	}
+}
