@@ -25,6 +25,6 @@ public partial class PlayGamesHud : HudEntity<RootPanel>
 		RootPanel.AddChild<HitIndicator>();
 		RootPanel.AddChild<ChatBox>();
 		RootPanel.AddChild<VoiceList>();
-		RootPanel.AddChild<Scoreboard<ScoreboardEntry>>();
+		RootPanel.AddChild<NewScoreboard<NewScoreboardEntry>>();
 	}
 }
